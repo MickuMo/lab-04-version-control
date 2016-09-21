@@ -140,7 +140,7 @@ echo $PATH
 
 Write down the output of the last command.  It should include your home folder.
 ----------
-ent-v314-004:~ student$ PATH=$PATH:/Users/professor
+ent-v314-004:~ student$ PATH=$PATH:/Users/student
 ent-v314-004:/ student$ echo $PATH
 /opt/local/bin:/Applications/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/professor:/Users/student
 
@@ -153,7 +153,9 @@ hello.sh
 
 It should work now!  What is the output?
 ----------
-
+ent-v314-004:lab-04-version-control student$ cd /
+ent-v314-004:/ student$ hello.sh
+hi there!
 
 ==========
 18.  Save this file in the repository that you created from parts 1 and 2.
